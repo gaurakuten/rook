@@ -12,7 +12,7 @@ spec:
     - name: rgw
       port: 80 # service port mentioned in object store crd
       protocol: TCP
-      targetPort: 8080
+      targetPort: 80
   selector:
     app: rook-ceph-rgw
     rook_cluster: rook-ceph # namespace:cluster
